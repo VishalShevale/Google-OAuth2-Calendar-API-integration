@@ -23,6 +23,7 @@ This project demonstrates how to implement Google OAuth 2.0 (Authorization Code 
 ### 1. Clone the Repository
 
 git clone https://github.com/VishalShevale/Google-OAuth2-Calendar-API-integration.git
+
 cd Google-OAuth2-Calendar-API-integration
 
 ### 2. Install Dependencies
@@ -61,6 +62,34 @@ Route	Description
     "end": { "dateTime": "2025-07-23T11:00:00+05:30" }
   }
 ]
+
+### References
+- [Google OAuth 2.0 Documentation](https://developers.google.com/identity/protocols/oauth2)  
+  Official documentation on how Google's OAuth 2.0 Authorization Code Flow works.
+
+- [Google Calendar API Overview](https://developers.google.com/calendar/api)  
+  Documentation for integrating and working with Google Calendar API.
+
+- [Google API Node.js Client (googleapis)](https://github.com/googleapis/google-api-nodejs-client)  
+  Official Node.js client library to interact with Google APIs.
+
+- [Google Cloud Console](https://console.cloud.google.com/)  
+  Dashboard for creating OAuth credentials and enabling APIs.
+
+- [OAuth 2.0 Scopes for Google APIs](https://developers.google.com/identity/protocols/oauth2/scopes)  
+  List of available scopes for various Google services.
+
+- [cookie-session (npm)](https://www.npmjs.com/package/cookie-session)  
+  Lightweight cookie-based session middleware for Express.
+
+- [dotenv (npm)](https://www.npmjs.com/package/dotenv)  
+  Loads environment variables from a `.env` file into `process.env`.
+
+- [Express.js Official Site](https://expressjs.com/)  
+  Web framework used to create the server and route structure.
+
+- [Node.js Official Site](https://nodejs.org/)  
+  JavaScript runtime environment used for backend development in this project.
 
 ### Notes
 The .env file is excluded from version control for security.
