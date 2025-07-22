@@ -33,8 +33,11 @@ npm install
 Create a .env file in the project root and add the following:
 
 GOOGLE_CLIENT_ID=your-google-client-id
+
 GOOGLE_CLIENT_SECRET=your-google-client-secret
+
 GOOGLE_REDIRECT_URI=http://localhost:3000/oauth2callback
+
 SESSION_SECRET=your-session-secret
 
 ### 4. Start the Server
